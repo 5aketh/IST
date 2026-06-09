@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "prebuild": "chmod +x node_modules/.bin/vite",
     "dev": "vite"
   },
   "dependencies": {
